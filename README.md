@@ -13,3 +13,7 @@ Em 2017 recebemos um e-mail de uma empresa nos oferecendo para atualizar o site 
 Como a empresa não existe mais, resolvi fazer o upload do site no Github para ser referência há quando comecei na programação web, apenas retirando os dados de contato da empresa.
 
 Outro motivo para fazer o upload é poder apresentar alguns de meus projetos e desafios em tecnologia que realizei nesta empresa, maioria em elétrica, eletrônica, programação de controladores lógicos e interfaces homem-máquina voltada a área industrial.
+
+## Deploy URL
+
+https://rodolfohok.github.io/hiok.site-mrj/index.htm
