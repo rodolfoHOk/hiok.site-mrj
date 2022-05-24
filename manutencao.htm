@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>  
+    <meta charset="utf-8">
+    <title>MRJ Serviços - Manutenção MultiMarcas CLP, IHM, Inversores de Frequência</title>
+    <meta name="author" content="Rudolf HO"/>
+    <meta name="copyright" content="� 2017 MRJ Servicos Ltda" />
+    <meta name="keywords" content="Manutencao Multimarcas, Manutencao de CLPs, Manutencao de IHMs, Manutencao de Inversores, Manutencao de Inversores de Frequencia, Manutencao de ServoMotores, Allen Bradley, Rockwell, Siemens, WEG, etc." />
+    <meta name="description" content="Manutencao de CLPs, IHMs, Inversores de Frequencia, Servomotores, Multimarcas, Principais Marcas e Modelos."/>
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/maincss.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto" >
+    <style>
+	body {
+		font-family: Roboto;
+	}
+    </style>
+  </head>
+  <body>
+	
+	<div class="logo" id="mylogo">
+ 	  <img src="./images/logo-montado.png" alt="Logo MRJ" height="48px" width="300px">
+	</div>
+
+
+
+	<div class="topnav" id="myTopnav">
+	  <a class="active" href="servicos.htm" onmousedown="bsoundc()">Serviços</a>
+	  <a href="index.htm" onmouseenter="bsoundh()" onmousedown="bsoundc()">Home</a>
+	  <a href="outros.htm" onmouseenter="bsoundh()" onmousedown="bsoundc()">Outros</a>
+  	  <a href="projetos.htm" onmouseenter="bsoundh()" onmousedown="bsoundc()">Casos</a>
+	  <a href="contato.htm" onmouseenter="bsoundh()" onmousedown="bsoundc()">Contato</a>
+	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()" onmouseenter="bsoundh()" onmousedown="bsoundc()">&#9776;</a>
+	</div>
+	
+	
+	<div class="header">
+	  <h1>Manutenção MultiMarcas</h1>
+	</div>
+	
+	<div class="row">
+
+  	  <div class="col-3 col-m-3 menu">
+	    <ul>
+		  <li><a href="servicos.htm" onmouseenter="bsoundh()" onmousedown="bsoundc()">Serviços Prestados</a></li>
+		  <li><a href="tecmaes.htm" onmouseenter="bsoundh()" onmousedown="bsoundc()">Assistência Técnica Tecmaes</a></li>
+		  <li><a href="consulting.htm" onmouseenter="bsoundh()" onmousedown="bsoundc()">Tecnologias da Informação na Indústria</a></li>
+		  <li><a class="active" href="manutencao.htm" onmousedown="bsoundc()">Manutenção Multimarcas</a></li>
+		  <li><a href="branqs.htm" onmouseenter="bsoundh()" onmousedown="bsoundc()">Retrofit Injetoras e Sopradoras / Branqs</a></li>
+	    </ul>
+	  </div>
+
+	  <div class=" acol-9 col-m-9">
+	    <h3>Manutenção MultiMarcas <br> CLPs, IHMs, Inversores de Frequência e ServoMotores</h3>
+	    <div class="dside col-12">
+				<p style="text-align:center;"><img src="./images/flyer-multimarcas.jpg" alt="Multimarcas" title="Multimarcas"/></a></p>
+				<div class="eside col-12">
+				  <p style="text-indent: 1.5em;"> Além da Manutenção Eletro-Eletrônica de Máquinas e Equipamentos Industriais, a MRJ Serviços oferece Manutenção MultiMarcas de: </p>
+				  <p> - CLP's (Controladores Lógicos Programáveis - PLC)</p>
+				  <p> - IHM's (Interfaces Homem-Máquinas - HMI)</p>
+				  <p> - Inversores de Frequência</p>
+				  <p> - Servomotores / Servo Drivers</p>
+				</div>
+				
+		</div>
+	  </div>
+	  
+	</div>
+
+	<div class="footer">
+	  <p>Copyright &copy; 2011-2018 MRJ Comércio & Serviços Ltda.</p>
+	</div>
+	
+	<script>
+
+ 	  /* Barra Navegacao Responsiva Superior Fixa */
+	  function myFunction() {
+	      var x = document.getElementById("myTopnav");
+	      if (x.className === "topnav") {
+	          x.className += " responsive";
+	      } else {
+	          x.className = "topnav";
+	      }
+	  }
+	  
+	  function bsoundh() {
+		var snd = new Audio("./sound/buttonh.wav")
+		snd.play();
+	  }
+	  
+	  function bsoundc() {
+		var snd = new Audio("./sound/buttonc.wav")
+		snd.play();
+	  }
+	  
+	  </script>
+
+  </body>
+</html>

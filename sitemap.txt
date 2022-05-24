@@ -1,0 +1,10 @@
+http://./index.htm
+http://./servicos.htm
+http://./projetos.htm
+http://./contato.htm
+http://./outros.htm
+http://./tecmaes.htm
+http://./consulting.htm
+http://./manutencao.htm
+http://./branqs.htm
+http://./retificaoptica.htm

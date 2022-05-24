@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>MRJ Serviços - Contatos / Localização</title>
+    <meta name="author" content="Rodolfo HiOk" />
+    <meta name="copyright" content="2017 MRJ Servicos Ltda" />
+    <meta
+      name="keywords"
+      content="MRJ, MRJ Servicos, Contato, Localizacao, Endereco, Telefone, E-mail, Email, Sao Paulo, Regiao Metropolitana"
+    />
+    <meta
+      name="description"
+      content="Contatos MRJ Servicos, Telefone, E-mail, Localiza��o, Formulario de Contato"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/maincss.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto" />
+    <style>
+      body {
+        font-family: Roboto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo" id="mylogo">
+      <img
+        src="./images/logo-montado.png"
+        alt="Logo MRJ"
+        height="48px"
+        width="300px"
+      />
+    </div>
+
+    <div class="topnav" id="myTopnav">
+      <a class="active" href="contato.htm" onmousedown="bsoundc()">Contato</a>
+      <a href="index.htm" onmouseenter="bsoundh()" onmousedown="bsoundc()"
+        >Home</a
+      >
+      <a href="servicos.htm" onmouseenter="bsoundh()" onmousedown="bsoundc()"
+        >Serviços</a
+      >
+      <a href="outros.htm" onmouseenter="bsoundh()" onmousedown="bsoundc()"
+        >Outros</a
+      >
+      <a href="projetos.htm" onmouseenter="bsoundh()" onmousedown="bsoundc()"
+        >Casos</a
+      >
+      <a
+        href="javascript:void(0);"
+        style="font-size: 15px"
+        class="icon"
+        onclick="myFunction()"
+        onmouseenter="bsoundh()"
+        onmousedown="bsoundc()"
+        >&#9776;</a
+      >
+    </div>
+
+    <div class="header">
+      <h1>Contato / Localização</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-3 col-m-3 menu">
+        <ul>
+          <li>
+            <a class="active" href="#contato" onmousedown="bsoundc()"
+              >Contato</a
+            >
+          </li>
+          <li>
+            <a
+              href="#localizacao"
+              onmouseenter="bsoundh()"
+              onmousedown="bsoundc()"
+              >Localização</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-9 col-m-9">
+        <h3 id="contato">Dados para Contato</h3>
+        <div class="gside">
+          <h5>
+            <span style="color: #7fffd4">Endereço:</span> Praça Enzo Ferrari,
+            251<br />
+            CEP: 04786-071 - Interlagos - São Paulo - SP,
+          </h5>
+          <h5><span style="color: #7fffd4">Telefone:</span> 11 5555-5555</h5>
+          <h5>
+            <span style="color: #7fffd4">email:</span>
+            <a href="mailto:hioktec@gmail.com">hioktec@gmail.com</a>
+          </h5>
+        </div>
+        <h3>Formulário de Contato</h3>
+        <div class="container-form">
+          <form name="form1" method="post" action="./enviar.php">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu Nome.." />
+
+            <label for="email">E-mail</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Seu E-Mail.."
+            />
+
+            <label for="assunto">Assunto</label>
+            <input
+              type="text"
+              id="assunto"
+              name="assunto"
+              placeholder="Seu Assunto.."
+            />
+
+            <label for="mensagem">Mensagem</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              placeholder="Escreva Sua Mensagem.."
+              style="height: 200px"
+            ></textarea>
+
+            <input type="submit" value="Enviar" />
+          </form>
+        </div>
+        <h3 id="localizacao">Localização</h3>
+        <div style="text-align: center" class="gside">
+          <h6>Estamos localizados próximo ao Autódromo de Interlagos</h6>
+          <h6>
+            Endereço: Praça Enzo Ferrari, 251 - Interlagos, São Paulo - SP,
+            04786-071
+          </h6>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6700.196382289746!2d-46.70273405653025!3d-23.700690672318824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4fc7a63d2845%3A0xd2983eaf9c077c82!2sAut%C3%B3dromo%20de%20Interlagos%20-%20Interlagos%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1653328806227!5m2!1spt-BR!2sbr"
+            width="100%"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright &copy; 2011-2018 MRJ Comércio & Serviços Ltda.</p>
+    </div>
+
+    <script>
+      /* Barra Navegacao Responsiva Superior Fixa */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+
+      function bsoundh() {
+        var snd = new Audio("./sound/buttonh.wav");
+        snd.play();
+      }
+
+      function bsoundc() {
+        var snd = new Audio("./sound/buttonc.wav");
+        snd.play();
+      }
+    </script>
+  </body>
+</html>
